@@ -8,21 +8,9 @@ import java.util.Objects;
 
 public class ViewNameServer
 {
-    private static ErrorController errorController = null;
 
     public static HashMap<String, IView> views;
 
-    public static ErrorController errorController()
-    {
-        return errorController;
-    }
-
-
-
-    public static void setErrorController(ErrorController errorController)
-    {
-        ViewNameServer.errorController = errorController;
-    }
 
     public static HashMap<String, IView> viewMap()
     {
